@@ -13,7 +13,7 @@ I will build a simple API application with Express and then deploy it to Kuberne
 
 the API will be a **Incantogamus app** a simple CRUD application for video games.
 
-**Incantogamus**: is a whimsical and imaginary word created with a mix of Latin and whimsy, inspired by the magical world of Harry Potter. However, in terms of actual meaning, it doesn't have a specific definition or translation as it's a made-up term. It's intended to evoke a sense of enchantment and mystery, fitting for a magical word related to games in the Harry Potter universe. 
+**Incantogamus**: is a whimsical and imaginary word created with a mix of Latin and whimsy, inspired by the magical world of Harry Potter. However, in terms of actual meaning, it doesn't have a specific definition or translation as it's a made-up term. It's intended to evoke a sense of enchantment and mystery, fitting for a magical word related to games in the Harry Potter universe.
 
 ### To Do
 
@@ -49,11 +49,31 @@ the API will be a **Incantogamus app** a simple CRUD application for video games
   - The Helm Chart is accessible at: https://civilcoder55.github.io/learning-helm-charts/
   - updated the application readme to include the Helm Chart usage. https://github.com/civilcoder55/incantogamus
 
-
 ## Mission 2
 
+- [x] Discover Prometheus and Grafana
 
-## Mission 3
+  - I discovered Prometheus, understanding its functionality and how to use it for monitoring applications. Additionally, I learned about Grafana and how to visualize the metrics collected by Prometheus.
+  - I also gained knowledge on creating and using an Exporter to gather metrics from an application and expose them to Prometheus.
 
+- [x] Collect and Visualize Asterisk Metrics
 
-## Mission 4 
+  - I collected metrics from an Asterisk server using the Asterisk `res_prometheus` module and exposed them to Prometheus.
+  - I visualized these metrics using a simple Grafana dashboard.
+  - Additionally, I used `node_exporter` to collect metrics from the Asterisk server node.
+
+  <p align="center">
+    <img src="screenshots/Screenshot from 2024-07-21 13-15-28.png">
+  </p>
+
+  <p align="center">
+    <img src="screenshots/2024-07-21_13-06.png">
+  </p>
+
+  <p align="center">
+    <img src="screenshots/Screenshot from 2024-07-21 13-13-15.png">
+  </p>
+
+- [ ] Collect K8s Cluster Metrics Using Prometheus
+- [ ] Visualize the Metrics Using Grafana
+- [ ] Create Alerts using Prometheus Alertmanager
